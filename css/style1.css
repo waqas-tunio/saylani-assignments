@@ -1,0 +1,105 @@
+*{margin: 0;
+    padding: 0;}
+    .a1{
+        width: 100%;
+        height: 50px;
+        background-color: royalblue;
+    }
+    td ul{
+        float: left;
+        padding-top: 20px;
+    }
+    td ul li{
+        display: block;
+        position: relative;
+        float: left;
+        list-style: none;
+        position: relative;
+        
+    }
+    td ul li a{
+        display: block;
+        padding: 12px 12px;
+        text-decoration: none !important;
+        
+        
+    }
+    td ul li ul{
+        display: none;
+        position: absolute;
+        background-color: white;
+    }
+    td ul li:hover ul{
+        display: block;
+        text-decoration: none !important;
+        
+        
+    }
+    td ul li ul li a {
+        padding: 12px;
+        float: left;
+        text-decoration: none !important;
+        
+    }
+    td ul li ul li{
+        width: 230px;
+        border-radius: 4px;
+        text-decoration: none !important;
+        
+    } 
+    
+    td ul li ul li a:hover{
+        background-color: royalblue;
+        color: white    ;
+        text-decoration: none !important;
+        
+    }
+    .img1{ 
+        width: 100%;
+        padding-top: 20px;
+    }
+    .tt{width: 100%;
+        ;}
+    .rt{background-color: royalblue;
+    }
+    .inline{display: inline-block;
+        color: white;
+        padding: 30px;
+        height: 50px 50px ;
+    }
+    .gg{
+        display: flex;
+        display: inline-block;
+        border: 2px solid whitesmoke;
+        box-shadow  : 5px 10px whitesmoke;
+        width: 300px;
+    margin: 2%;
+    padding: 20px 20px 20px 20px;
+    }
+    .main{
+        justify-content: space-between;
+        width: 100%;
+        margin: 10px;
+        
+    }
+    .hh{
+        display: flex;
+        border: 2px solid whitesmoke;
+        box-shadow: 5px 10px whitesmoke;
+        width: 300px;
+        margin: 2%;
+        padding: 20px 20px 20px 20px;
+        display: inline-block;
+    
+    } 
+    .images{
+        padding: 5%;
+        width: 238px;
+        height: 159px;
+
+}
+
+.b1{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px ; 
+   }
